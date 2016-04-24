@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43331CB91CCD519B0029A32C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43331CB81CCD519B0029A32C /* AppDelegate.swift */; };
+		43331CBC1CCD519B0029A32C /* Locatapp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43331CBA1CCD519B0029A32C /* Locatapp.xcdatamodeld */; };
+		43331CBE1CCD519B0029A32C /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43331CBD1CCD519B0029A32C /* MasterViewController.swift */; };
+		43331CC01CCD519B0029A32C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43331CBF1CCD519B0029A32C /* DetailViewController.swift */; };
+		43331CC31CCD519B0029A32C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43331CC11CCD519B0029A32C /* Main.storyboard */; };
+		43331CC51CCD519B0029A32C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43331CC41CCD519B0029A32C /* Assets.xcassets */; };
+		43331CC81CCD519B0029A32C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43331CC61CCD519B0029A32C /* LaunchScreen.storyboard */; };
+		43331CD31CCD519C0029A32C /* LocatappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43331CD21CCD519C0029A32C /* LocatappTests.swift */; };
+		43331CDE1CCD519C0029A32C /* LocatappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43331CDD1CCD519C0029A32C /* LocatappUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43331CCF1CCD519C0029A32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43331CAD1CCD519B0029A32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43331CB41CCD519B0029A32C;
+			remoteInfo = Locatapp;
+		};
+		43331CDA1CCD519C0029A32C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43331CAD1CCD519B0029A32C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43331CB41CCD519B0029A32C;
+			remoteInfo = Locatapp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43331CB51CCD519B0029A32C /* Locatapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Locatapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43331CB81CCD519B0029A32C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43331CBB1CCD519B0029A32C /* Locatapp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Locatapp.xcdatamodel; sourceTree = "<group>"; };
+		43331CBD1CCD519B0029A32C /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		43331CBF1CCD519B0029A32C /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		43331CC21CCD519B0029A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43331CC41CCD519B0029A32C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43331CC71CCD519B0029A32C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43331CC91CCD519B0029A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43331CCE1CCD519C0029A32C /* LocatappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43331CD21CCD519C0029A32C /* LocatappTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatappTests.swift; sourceTree = "<group>"; };
+		43331CD41CCD519C0029A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43331CD91CCD519C0029A32C /* LocatappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocatappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43331CDD1CCD519C0029A32C /* LocatappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocatappUITests.swift; sourceTree = "<group>"; };
+		43331CDF1CCD519C0029A32C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43331CB21CCD519B0029A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CCB1CCD519C0029A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CD61CCD519C0029A32C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43331CAC1CCD519B0029A32C = {
+			isa = PBXGroup;
+			children = (
+				43331CB71CCD519B0029A32C /* Locatapp */,
+				43331CD11CCD519C0029A32C /* LocatappTests */,
+				43331CDC1CCD519C0029A32C /* LocatappUITests */,
+				43331CB61CCD519B0029A32C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43331CB61CCD519B0029A32C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43331CB51CCD519B0029A32C /* Locatapp.app */,
+				43331CCE1CCD519C0029A32C /* LocatappTests.xctest */,
+				43331CD91CCD519C0029A32C /* LocatappUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43331CB71CCD519B0029A32C /* Locatapp */ = {
+			isa = PBXGroup;
+			children = (
+				43331CB81CCD519B0029A32C /* AppDelegate.swift */,
+				43331CBD1CCD519B0029A32C /* MasterViewController.swift */,
+				43331CBF1CCD519B0029A32C /* DetailViewController.swift */,
+				43331CC11CCD519B0029A32C /* Main.storyboard */,
+				43331CC41CCD519B0029A32C /* Assets.xcassets */,
+				43331CC61CCD519B0029A32C /* LaunchScreen.storyboard */,
+				43331CC91CCD519B0029A32C /* Info.plist */,
+				43331CBA1CCD519B0029A32C /* Locatapp.xcdatamodeld */,
+			);
+			path = Locatapp;
+			sourceTree = "<group>";
+		};
+		43331CD11CCD519C0029A32C /* LocatappTests */ = {
+			isa = PBXGroup;
+			children = (
+				43331CD21CCD519C0029A32C /* LocatappTests.swift */,
+				43331CD41CCD519C0029A32C /* Info.plist */,
+			);
+			path = LocatappTests;
+			sourceTree = "<group>";
+		};
+		43331CDC1CCD519C0029A32C /* LocatappUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43331CDD1CCD519C0029A32C /* LocatappUITests.swift */,
+				43331CDF1CCD519C0029A32C /* Info.plist */,
+			);
+			path = LocatappUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43331CB41CCD519B0029A32C /* Locatapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43331CE21CCD519C0029A32C /* Build configuration list for PBXNativeTarget "Locatapp" */;
+			buildPhases = (
+				43331CB11CCD519B0029A32C /* Sources */,
+				43331CB21CCD519B0029A32C /* Frameworks */,
+				43331CB31CCD519B0029A32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Locatapp;
+			productName = Locatapp;
+			productReference = 43331CB51CCD519B0029A32C /* Locatapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43331CCD1CCD519C0029A32C /* LocatappTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43331CE51CCD519C0029A32C /* Build configuration list for PBXNativeTarget "LocatappTests" */;
+			buildPhases = (
+				43331CCA1CCD519C0029A32C /* Sources */,
+				43331CCB1CCD519C0029A32C /* Frameworks */,
+				43331CCC1CCD519C0029A32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43331CD01CCD519C0029A32C /* PBXTargetDependency */,
+			);
+			name = LocatappTests;
+			productName = LocatappTests;
+			productReference = 43331CCE1CCD519C0029A32C /* LocatappTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43331CD81CCD519C0029A32C /* LocatappUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43331CE81CCD519C0029A32C /* Build configuration list for PBXNativeTarget "LocatappUITests" */;
+			buildPhases = (
+				43331CD51CCD519C0029A32C /* Sources */,
+				43331CD61CCD519C0029A32C /* Frameworks */,
+				43331CD71CCD519C0029A32C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43331CDB1CCD519C0029A32C /* PBXTargetDependency */,
+			);
+			name = LocatappUITests;
+			productName = LocatappUITests;
+			productReference = 43331CD91CCD519C0029A32C /* LocatappUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43331CAD1CCD519B0029A32C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Kryptech;
+				TargetAttributes = {
+					43331CB41CCD519B0029A32C = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					43331CCD1CCD519C0029A32C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 43331CB41CCD519B0029A32C;
+					};
+					43331CD81CCD519C0029A32C = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 43331CB41CCD519B0029A32C;
+					};
+				};
+			};
+			buildConfigurationList = 43331CB01CCD519B0029A32C /* Build configuration list for PBXProject "Locatapp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43331CAC1CCD519B0029A32C;
+			productRefGroup = 43331CB61CCD519B0029A32C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43331CB41CCD519B0029A32C /* Locatapp */,
+				43331CCD1CCD519C0029A32C /* LocatappTests */,
+				43331CD81CCD519C0029A32C /* LocatappUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43331CB31CCD519B0029A32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43331CC81CCD519B0029A32C /* LaunchScreen.storyboard in Resources */,
+				43331CC51CCD519B0029A32C /* Assets.xcassets in Resources */,
+				43331CC31CCD519B0029A32C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CCC1CCD519C0029A32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CD71CCD519C0029A32C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43331CB11CCD519B0029A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43331CB91CCD519B0029A32C /* AppDelegate.swift in Sources */,
+				43331CBC1CCD519B0029A32C /* Locatapp.xcdatamodeld in Sources */,
+				43331CBE1CCD519B0029A32C /* MasterViewController.swift in Sources */,
+				43331CC01CCD519B0029A32C /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CCA1CCD519C0029A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43331CD31CCD519C0029A32C /* LocatappTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43331CD51CCD519C0029A32C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43331CDE1CCD519C0029A32C /* LocatappUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43331CD01CCD519C0029A32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43331CB41CCD519B0029A32C /* Locatapp */;
+			targetProxy = 43331CCF1CCD519C0029A32C /* PBXContainerItemProxy */;
+		};
+		43331CDB1CCD519C0029A32C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43331CB41CCD519B0029A32C /* Locatapp */;
+			targetProxy = 43331CDA1CCD519C0029A32C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43331CC11CCD519B0029A32C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43331CC21CCD519B0029A32C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43331CC61CCD519B0029A32C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43331CC71CCD519B0029A32C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43331CE01CCD519C0029A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		43331CE11CCD519C0029A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43331CE31CCD519C0029A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Locatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.Locatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43331CE41CCD519C0029A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Locatapp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.Locatapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43331CE61CCD519C0029A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.LocatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locatapp.app/Locatapp";
+			};
+			name = Debug;
+		};
+		43331CE71CCD519C0029A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LocatappTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.LocatappTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Locatapp.app/Locatapp";
+			};
+			name = Release;
+		};
+		43331CE91CCD519C0029A32C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.LocatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Locatapp;
+			};
+			name = Debug;
+		};
+		43331CEA1CCD519C0029A32C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LocatappUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kryptech.LocatappUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Locatapp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43331CB01CCD519B0029A32C /* Build configuration list for PBXProject "Locatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43331CE01CCD519C0029A32C /* Debug */,
+				43331CE11CCD519C0029A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43331CE21CCD519C0029A32C /* Build configuration list for PBXNativeTarget "Locatapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43331CE31CCD519C0029A32C /* Debug */,
+				43331CE41CCD519C0029A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43331CE51CCD519C0029A32C /* Build configuration list for PBXNativeTarget "LocatappTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43331CE61CCD519C0029A32C /* Debug */,
+				43331CE71CCD519C0029A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43331CE81CCD519C0029A32C /* Build configuration list for PBXNativeTarget "LocatappUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43331CE91CCD519C0029A32C /* Debug */,
+				43331CEA1CCD519C0029A32C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43331CBA1CCD519B0029A32C /* Locatapp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43331CBB1CCD519B0029A32C /* Locatapp.xcdatamodel */,
+			);
+			currentVersion = 43331CBB1CCD519B0029A32C /* Locatapp.xcdatamodel */;
+			path = Locatapp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43331CAD1CCD519B0029A32C /* Project object */;
+}
